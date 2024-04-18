@@ -24,19 +24,41 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    font-family: 'Manrope', Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1.5rem;
     background-color: var(--Dark-Grayish-Blue);
-    padding: 2rem;
+    padding: 2.15rem;
     border-radius: 10px;
+    max-width: 509px;
+}
+
+header p {
+    text-align: center;
+    color: var(--Neon-Green);
+    text-transform: uppercase;
+    /* border: 1px solid var(--Neon-Green); */
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+}
+
+main p {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid var(--Neon-Green); */
+    font-size: 28px;
+    text-align: center;
+    font-weight: 800;
 }
 
 .relative {
-    border: 1px solid var(--Neon-Green);
+    /* border: 1px solid var(--Neon-Green); */
     padding: 0 2rem;
     position: relative;
 }
