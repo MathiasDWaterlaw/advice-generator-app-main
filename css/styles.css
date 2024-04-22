@@ -79,3 +79,8 @@ button {
     border: none;
     border-radius: 50%;
 }
+
+button:hover,
+button:active {
+    box-shadow: 0 0 40px 0 var(--Neon-Green);
+}
